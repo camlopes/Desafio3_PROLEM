@@ -63,7 +63,8 @@ class CalculadoraCR(object):
 
 
 def main():
-    nome_arquivo = "notas.csv"
+    print("Digite o local do arquivo: ")
+    nome_arquivo = input() 
     CalculadoraCR(nome_arquivo)
     print("-----------------------------------")
 
